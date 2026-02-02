@@ -295,6 +295,15 @@ def feature_card(icon, title, text):
 # st.sidebar.header("Tech Stack")
 # st.sidebar.code("- Streamlit, Pandas\n- Plotly, Folium\n- scikit-learn\n- TensorFlow/Keras")
 
+import base64
+
+def img_to_base64(path):
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+img_base64 = img_to_base64("banner.png")
+
+
 st.markdown(
     """
     <style>
@@ -321,7 +330,7 @@ st.markdown(
     </style>
 
     <div class="hero">
-        <img src="banner.png">
+        <img src="data:image/png;base64,{img_base64}">
         <div class="hero-text">
             <h1>Aqua-Analytics 💧</h1>
             <p>Advanced AI for Groundwater Quality Analysis</p>
