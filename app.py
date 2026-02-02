@@ -17,7 +17,7 @@ from tensorflow.keras.optimizers import Adam
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Aqua-Analytics Advanced AI",
+    page_title="HydroCompute Engine",
     page_icon="💧",
     layout="wide"
 )
