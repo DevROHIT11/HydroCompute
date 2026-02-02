@@ -297,15 +297,40 @@ def feature_card(icon, title, text):
 
 st.markdown(
     """
-    <h1 style="text-align: center;">HydroCompute</h1>
-    <p style="text-align: center; font-size: 18px;">
-       Smart Application for Heavy Metal Pollution Indexing in Groundwater 
-    </p>
-    <hr>
+    <style>
+    .hero {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .hero img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        filter: blur(4px);
+        border-radius: 10px;
+    }
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    </style>
+
+    <div class="hero">
+        <img src="banner.png">
+        <div class="hero-text">
+            <h1>Aqua-Analytics 💧</h1>
+            <p>Advanced AI for Groundwater Quality Analysis</p>
+        </div>
+    </div>
     """,
     unsafe_allow_html=True
 )
-# st.image("banner.png", width=600)
+
 
 
 st.header("Key Features")
