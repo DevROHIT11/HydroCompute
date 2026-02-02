@@ -297,16 +297,15 @@ def feature_card(icon, title, text):
 
 st.markdown(
     """
-    <h1 style="text-align: center;">HydroCompute: Smart Application for Heavy Metal Pollution Indexing in Groundwater </h1>
+    <h1 style="text-align: center;">HydroCompute</h1>
     <p style="text-align: center; font-size: 18px;">
-        A comprehensive AI tool for in-depth analysis of groundwater quality.
-        Upload your data to unlock advanced insights.
+       Smart Application for Heavy Metal Pollution Indexing in Groundwater 
     </p>
     <hr>
     """,
     unsafe_allow_html=True
 )
-st.image("banner.png", width=600)
+# st.image("banner.png", width=600)
 
 
 st.header("Key Features")
