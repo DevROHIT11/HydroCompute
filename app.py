@@ -306,7 +306,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.image("banner.png", use_container_width=True)
+st.image("banner.png", width=600)
+
 
 st.header("Key Features")
 col1, col2, col3, col4 = st.columns(4)
