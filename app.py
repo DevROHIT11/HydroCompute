@@ -289,11 +289,11 @@ def feature_card(icon, title, text):
     """, unsafe_allow_html=True)
 
 # --- UI LAYOUT ---
-st.sidebar.image("logo.png", width=100) # Assuming 'logo.png' exists
-st.sidebar.header("About Aqua-Analytics")
-st.sidebar.info("This application automates water quality index calculations and provides advanced AI insights, including clustering, anomaly detection, and treatment recommendations.")
-st.sidebar.header("Tech Stack")
-st.sidebar.code("- Streamlit, Pandas\n- Plotly, Folium\n- scikit-learn\n- TensorFlow/Keras")
+# st.sidebar.image("logo.png", width=100) # Assuming 'logo.png' exists
+# st.sidebar.header("About Aqua-Analytics")
+# st.sidebar.info("This application automates water quality index calculations and provides advanced AI insights, including clustering, anomaly detection, and treatment recommendations.")
+# st.sidebar.header("Tech Stack")
+# st.sidebar.code("- Streamlit, Pandas\n- Plotly, Folium\n- scikit-learn\n- TensorFlow/Keras")
 
 st.image("banner.png") # Assuming 'banner.png' exists
 st.title("Aqua-Analytics: Advanced Water Quality AI 💧")
