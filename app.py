@@ -295,10 +295,19 @@ def feature_card(icon, title, text):
 # st.sidebar.header("Tech Stack")
 # st.sidebar.code("- Streamlit, Pandas\n- Plotly, Folium\n- scikit-learn\n- TensorFlow/Keras")
 
-st.image("banner.png") # Assuming 'banner.png' exists
-st.title("Aqua-Analytics: Advanced Water Quality AI 💧")
-st.markdown("A comprehensive AI tool for in-depth analysis of groundwater quality. Upload your data to unlock advanced insights.")
-st.write("---")
+st.image("banner.png", use_container_width=True)
+
+st.markdown(
+    """
+    <h1 style="text-align: center;">Aqua-Analytics: Advanced Water Quality AI 💧</h1>
+    <p style="text-align: center; font-size: 18px;">
+        A comprehensive AI tool for in-depth analysis of groundwater quality.
+        Upload your data to unlock advanced insights.
+    </p>
+    <hr>
+    """,
+    unsafe_allow_html=True
+)
 
 st.header("Key Features")
 col1, col2, col3, col4 = st.columns(4)
