@@ -330,7 +330,7 @@ st.markdown(
     </style>
 
     <div class="hero">
-        <img src="data:image/png;base64,{img_base64}">
+        <img src="banner.png">
         <div class="hero-text">
             <h1>💧 HydroCompute Engine</h1>
             <p>Smart Application for Heavy Metal Pollution Indexing in Groundwater</p>
